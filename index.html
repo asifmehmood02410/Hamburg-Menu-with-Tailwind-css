@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-cyan-500">
+
+    <header class="bg-white h-14 px-12">
+        <nav class="h-14 flex justify-between items-center">
+            <div>
+                <h2 class="text-blue-500 text-lg font-bold"> My Logo</h2>
+            </div>
+
+            <div class="flex  items-center">
+
+
+                <input type="checkbox" 
+                class="h-7 w-7 z-[3] peer absolute opacity-0
+                sm:hidden"
+                name="" id="">
+
+                <div class="w-7 h-1 bg-blue-400 relative z-[2] duration-700
+                before:w-5 before:bg-blue-400 before:h-1 before:absolute before:top-[-10px] before:right-0 before:transition-transform before:duration-700
+                after:w-6 after:bg-blue-400 after:h-1 after:absolute after:top-[10px] after:right-0 after:transition-transform after:duration-700
+                peer-checked:bg-transparent
+                before:peer-checked:-rotate-45 before:peer-checked:top-0  before:peer-checked:w-7 
+                after:peer-checked:rotate-45 after:peer-checked:top-0  after:peer-checked:w-7
+                sm:hidden
+                ">
+                </div>
+
+                <ul class="hidden text-blue-500 items-center text-lg font-bold 
+                peer-checked:flex peer-checked:flex-col peer-checked:justify-start  
+                peer-checked:fixed peer-checked:top-0 peer-checked:right-0 
+                 peer-checked:w-screen peer-checked:h-screen peer-checked:bg-white peer-checked:py-12
+                 sm:flex sm:gap-4
+                  ">
+                    <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    sm:w-[75px] 
+                    ">
+                        <a class="visited:bg-cyan-400" href="#">Home</a>
+                    </li>
+                    <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    sm:w-[75px] 
+                    ">
+                        <a class="" href="#">Services</a>
+                    </li>
+                    <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    sm:w-[100px] 
+                    ">
+                        <a class="" href="#">About Us</a>
+                    </li>
+                    <li class="w-full border-b border-cyan-200 text-center h-14 
+                    flex justify-center items-center hover:bg-cyan-300 cursor-pointer
+                    sm:w-[75px] 
+                    ">
+                        <a class="" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+</body>
+
+</html>
